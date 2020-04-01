@@ -18,6 +18,17 @@ export class QuoteComponent implements OnInit {
     this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
   }
 
+  deleteQuote(isComplete, index){
+    if (isComplete) {
+      this.quotes.splice(index,1);
+    }
+  }
+
+  addNewQuote(quote){
+    this.quotes.unshift(quote);  
+
+  }
+
   constructor() { }
 
   ngOnInit(): void {
