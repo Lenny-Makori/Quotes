@@ -9,6 +9,7 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { QuoteUsernameComponent } from './quote-username/quote-username.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteVotesComponent } from './quote-votes/quote-votes.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { QuoteVotesComponent } from './quote-votes/quote-votes.component';
     QuoteDetailComponent,
     QuoteUsernameComponent,
     QuoteFormComponent,
-    QuoteVotesComponent
+    QuoteVotesComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

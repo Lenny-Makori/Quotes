@@ -1,19 +1,19 @@
 <div class="container">
-    <h1>My Quotes</h1>
+    <h1>QUOTES SECTION</h1>
     <hr>
 
     <div class="row">
         <div class="col-md-6">
-            <div *ngFor='let quote of quotes; let i = index'>
+            <div appHighlight *ngFor='let quote of quotes; let i = index' class="card">
                 <div>
-                    <app-quote-username [quote] = 'quote'></app-quote-username>
+                    <app-quote-username [quote] = 'quote' class="card-title"></app-quote-username>
                 </div>
-                <div>
-                    <h4>Quote: {{quote.userquote}},</h4>
+                <div class="card-body">
+                    <h4>"{{quote.userquote}}"</h4>
                     <app-quote-votes></app-quote-votes>
                     <button (click)='toggleDetails(i)' class="btn btn-outline-primary">Details</button>
                 </div>
-                <div *ngIf='quote.showAuthor'>
+                <div *ngIf='quote.showAuthor' class="card-footer">
                     <app-quote-detail  [quote] = 'quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
                 </div>
             </div>
