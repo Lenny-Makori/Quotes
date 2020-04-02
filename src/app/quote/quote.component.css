@@ -1,7 +1,11 @@
 h1{
     text-align: center;
     color: green;
+    background-color: rgb(113, 181, 184);
 }
-body{
-    background-color: silver;
+.container{
+    background-color: rgb(182, 176, 218);
+}
+.card{
+    background-color: rgb(247, 247, 185);
 }
