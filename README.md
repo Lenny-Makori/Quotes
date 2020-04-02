@@ -1,4 +1,5 @@
 # Quotes
+
 By **Lenny Makori**
 
 ## Description
@@ -12,6 +13,13 @@ This application enables a user to create quotes and post it.
 
 ## Known Bugs
 Highlighting the Quote with most votes.
+
+## Behaviour Driven Development
+| Behaviour  | Input | Output |
+| ------------- | ------------- | ------------- |
+| Creating a quote  | User gets to create a quote on the input form and also gets to put his/her details, and name of the author. | On submission, the new post is posted top of the list of quotes  |
+| Vote for the Quote  | A user is able to vote for any of the posted quotes  | The number of votes is displayed on the page  |
+| Delete a quote | A user can e able to delete any quote | On clicking the delete nutton, the quote is deleted |
 
 ## Technologies Used
 This page was created using: 
