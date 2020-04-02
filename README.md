@@ -23,6 +23,7 @@ This page was created using:
 * CSS for styling.
 
 ## Support and contact details
+In case you encounter any  troubles in installing the application, contact me on makorilenny28@gmail.com.
 
 
 ### License
