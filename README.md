@@ -16,7 +16,11 @@ This application enables a user to create quotes and post it.
 Highlighting the Quote with most votes.
 
 ## Technologies Used
-This page was created using HTML, Angular, Javascript, and styled using CSS
+This page was created using: 
+* HTML 
+* Angular
+* Javascript
+* CSS for styling.
 
 ## Support and contact details
 
