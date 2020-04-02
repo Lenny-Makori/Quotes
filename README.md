@@ -22,5 +22,5 @@ This page was created using HTML, Angular, Javascript, and styled using CSS
 
 
 ### License
-*GPL license*
+*MIT license*
 Copyright (c) 2020 **Lenny-Makori**
