@@ -1,3 +1,8 @@
 h2{
     color: cadetblue;
 }
+label{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}

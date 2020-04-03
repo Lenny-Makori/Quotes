@@ -4,8 +4,14 @@ h1{
     background-color: rgb(113, 181, 184);
 }
 .container{
-    background-color: rgb(182, 176, 218);
+    background-color: transparent;
 }
 .card{
     background-color: rgb(247, 247, 185);
+}
+.body{
+    background-image: url("/assets/137363.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
